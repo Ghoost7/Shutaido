@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
+}
+
+.custom-img {
+  background-image: url("C:/Users/dylan/Pictures/img1png");
+  background-attachment: scroll;
+  background-attachment: fixed;
+}
