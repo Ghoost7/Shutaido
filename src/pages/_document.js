@@ -1,4 +1,5 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Document, { Html, Head, Main, NextScript } from 'next/document';
+import script from 'next/script'
 
 class MyDocument extends Document {
   render() {
@@ -15,7 +16,7 @@ class MyDocument extends Document {
         </Head>
         <body>
           <Main />
-          <script src="https://www.paypal.com/sdk/js?client-id=AdeQ3wtniszS8RxGsYQSKYRW3G2r-oE1Y1qMSdujZGUQnNL0k3UktuXdZalarApywohizd0tT9kdRuQb&currency=EUR"></script>
+          <script src="https://www.paypal.com/sdk/js?client-id=AdeQ3wtniszS8RxGsYQSKYRW3G2r-oE1Y1qMSdujZGUQnNL0k3UktuXdZalarApywohizd0tT9kdRuQb&currency=EUR" async></script>
           <NextScript />
         </body>
       </Html>
