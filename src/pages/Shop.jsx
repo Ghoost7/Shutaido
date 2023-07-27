@@ -10,7 +10,7 @@ const Shop = () => {
         <div className= "">
             <div>
                 <Heros heading={"Shop"} message="Buy the 13 movements of shutaido"/>
-                <div className="relative">          
+                <div className="relative flex justify-center items-center">          
                 <PayPalButton/>       
                 </div>      
             </div>
