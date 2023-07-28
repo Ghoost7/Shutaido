@@ -1,7 +1,7 @@
 import Navbar from '../components/Navbar';
 import '../styles/globals.css';
 import Image from 'next/image';
-import img1 from "../public/img1.png";
+import Shutaido from "../public/Shutaido.png";
 
 
 function MyApp({ Component, pageProps }) {
@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
       <div className='p-10 block top-0 left-0 right-0 z-0'>
           <Navbar/>                     
           <Image 
-                  src={img1} 
+                  src={Shutaido} 
                   alt="/" 
                   className=
                   "w-full h-full" 
